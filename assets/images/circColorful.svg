@@ -1,0 +1,49 @@
+
+<svg width="131px" height="129px" viewBox="0 0 131 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <radialGradient cx="-106.0604%" cy="62.5384%" fx="-106.0604%" fy="62.5384%" r="109.6739%" gradientTransform="translate(-1.060604,0.625384),scale(0.984733,1.000000),rotate(179.539430),translate(1.060604,-0.625384)" id="radialGradient-1">
+            <stop stop-color="#FE36C0" offset="0%"></stop>
+            <stop stop-color="#F935C1" offset="10.8%"></stop>
+            <stop stop-color="#EB33C4" offset="23.2%"></stop>
+            <stop stop-color="#D430CA" offset="36.4%"></stop>
+            <stop stop-color="#B32CD2" offset="50.2%"></stop>
+            <stop stop-color="#8A26DC" offset="64.4%"></stop>
+            <stop stop-color="#5720E8" offset="79%"></stop>
+            <stop stop-color="#1C18F7" offset="93.6%"></stop>
+            <stop stop-color="#0015FE" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="-144.7552%" cy="63.6988%" fx="-144.7552%" fy="63.6988%" r="113.802882%" gradientTransform="translate(-1.447552,0.636988),scale(0.949580,1.000000),rotate(179.138287),translate(1.447552,-0.636988)" id="radialGradient-2">
+            <stop stop-color="#FE36C0" offset="0%"></stop>
+            <stop stop-color="#F935C1" offset="10.8%"></stop>
+            <stop stop-color="#EB33C4" offset="23.2%"></stop>
+            <stop stop-color="#D430CA" offset="36.4%"></stop>
+            <stop stop-color="#B32CD2" offset="50.2%"></stop>
+            <stop stop-color="#8A26DC" offset="64.4%"></stop>
+            <stop stop-color="#5720E8" offset="79%"></stop>
+            <stop stop-color="#1C18F7" offset="93.6%"></stop>
+            <stop stop-color="#0015FE" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="-164.068951%" y1="-24.9972236%" x2="95.5891504%" y2="53.3689735%" id="linearGradient-3">
+            <stop stop-color="#0015FE" offset="0%"></stop>
+            <stop stop-color="#F935C1" offset="45.1631685%"></stop>
+            <stop stop-color="#1C18F7" offset="73.5924914%"></stop>
+            <stop stop-color="#5720E8" offset="78.6678873%"></stop>
+            <stop stop-color="#8A26DC" offset="85.6456807%"></stop>
+            <stop stop-color="#B32CD2" offset="88.8945308%"></stop>
+            <stop stop-color="#D430CA" offset="92.8629824%"></stop>
+            <stop stop-color="#EB33C4" offset="96.7008672%"></stop>
+            <stop stop-color="#FE36C0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.542270795">
+        <g id="spectropharma-1920-–-homepage" transform="translate(-814.000000, -1326.000000)" fill-rule="nonzero">
+            <g id="PROJECT_OVERVIEW_page" transform="translate(582.000000, 1080.000000)">
+                <g id="grafx" transform="translate(231.866000, 245.952000)">
+                    <path d="M54.5953739,0.267901635 C26.340731,3.83335589 13.7621396,18.486607 6.07051721,34.0795431 C-0.3651819,47.1293731 -0.808021884,63.018924 1.17991826,75.9994628 C3.09647164,88.5204921 8.96349646,106.038992 22.2813645,116.980913 C40.3095497,131.792197 55.9372033,129.939571 77.2854784,127.081615 C103.282363,123.601255 116.818022,108.070317 124.504804,92.3789141 C131.176443,78.7638143 134.387637,62.4487917 126.512103,37.5647656 C122.590671,25.1725935 110.283107,17.7730299 97.7081453,13.0089606 C82.4616244,7.23105266 68.1612808,-1.44492654 54.5953739,0.267901635 Z" id="Path_187" fill="url(#radialGradient-1)" opacity="0.35"></path>
+                    <path d="M55.0197711,9.26447781 C29.327582,12.5740275 17.8054582,25.4900257 10.7143606,39.1975436 C4.78166168,50.6703251 4.27706083,64.5894013 5.99707047,75.9442452 C7.65643096,86.8942103 12.8722571,102.206653 24.8989817,111.697596 C41.1784241,124.550369 55.3897309,122.825075 74.8035209,120.181812 C98.443343,116.963452 110.842453,103.270524 117.927486,89.4766804 C124.077309,77.5041836 127.101275,63.1984664 120.110855,41.4505178 C116.629594,30.6233537 105.495625,24.2231077 94.1032905,20.1329808 C80.2910551,15.1808147 67.3558064,7.67657481 55.0197711,9.26447781 Z" id="Path_188" fill="url(#radialGradient-2)" opacity="0.41"></path>
+                    <path d="M68.4800291,14.6515148 C46.1337405,11.8959621 33.148882,18.9681844 24.6627812,27.9052758 C16.5067425,36.4974693 13.8456929,48.4164149 13.2702001,58.1812613 C12.7213057,67.487454 13.6123523,82.2394031 20.0407036,94.060325 C27.6514749,108.051078 38.055079,113.829631 53.2246339,114.875216 C70.2875118,116.046659 84.7328646,111.186624 95.6007318,102.571437 C105.809684,94.4717822 113.800087,82.0385152 115.099782,58.4402373 C115.728471,47.0295623 107.603867,37.625346 98.1565968,30.6705099 C87.7493657,23.0125662 77.1474826,15.7213034 68.4800291,14.6515148 Z" id="Path_189" fill="url(#linearGradient-3)" opacity="0.85"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

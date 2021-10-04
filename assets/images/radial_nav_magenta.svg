@@ -1,0 +1,49 @@
+
+<svg width="292px" height="286px" viewBox="0 0 292 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <radialGradient cx="97.3281352%" cy="51.1261639%" fx="97.3281352%" fy="51.1261639%" r="110.189635%" gradientTransform="translate(0.973281,0.511262),scale(0.980124,1.000000),rotate(179.541586),translate(-0.973281,-0.511262)" id="radialGradient-1">
+            <stop stop-color="#FE36C0" offset="0%"></stop>
+            <stop stop-color="#F935C1" offset="10.8%"></stop>
+            <stop stop-color="#EB33C4" offset="23.2%"></stop>
+            <stop stop-color="#D430CA" offset="36.4%"></stop>
+            <stop stop-color="#B32CD2" offset="50.2%"></stop>
+            <stop stop-color="#8A26DC" offset="64.4%"></stop>
+            <stop stop-color="#5720E8" offset="79%"></stop>
+            <stop stop-color="#1C18F7" offset="93.6%"></stop>
+            <stop stop-color="#0015FE" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="90.1458694%" cy="57.7329111%" fx="90.1458694%" fy="57.7329111%" r="114.070641%" gradientTransform="translate(0.901459,0.577329),scale(0.947350,1.000000),rotate(179.140310),translate(-0.901459,-0.577329)" id="radialGradient-2">
+            <stop stop-color="#FE36C0" offset="0%"></stop>
+            <stop stop-color="#F935C1" offset="10.8%"></stop>
+            <stop stop-color="#EB33C4" offset="23.2%"></stop>
+            <stop stop-color="#D430CA" offset="36.4%"></stop>
+            <stop stop-color="#B32CD2" offset="50.2%"></stop>
+            <stop stop-color="#8A26DC" offset="64.4%"></stop>
+            <stop stop-color="#5720E8" offset="79%"></stop>
+            <stop stop-color="#1C18F7" offset="93.6%"></stop>
+            <stop stop-color="#0015FE" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="58.9524601%" cy="50%" fx="58.9524601%" fy="50%" r="109.078874%" gradientTransform="translate(0.589525,0.500000),scale(0.989215,1.000000),rotate(-169.045068),translate(-0.589525,-0.500000)" id="radialGradient-3">
+            <stop stop-color="#FE36C0" offset="0%"></stop>
+            <stop stop-color="#F935C1" offset="10.8%"></stop>
+            <stop stop-color="#EB33C4" offset="23.2%"></stop>
+            <stop stop-color="#D430CA" offset="36.4%"></stop>
+            <stop stop-color="#B32CD2" offset="50.2%"></stop>
+            <stop stop-color="#8A26DC" offset="64.4%"></stop>
+            <stop stop-color="#5720E8" offset="79%"></stop>
+            <stop stop-color="#1C18F7" offset="93.6%"></stop>
+            <stop stop-color="#0015FE" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.603133258">
+        <g id="spectropharma-1920-–-homepage" transform="translate(-2389.000000, -2928.000000)" fill-rule="nonzero">
+            <g id="grafx-2" transform="translate(0.371000, 1642.473000)">
+                <g id="grafx-3" transform="translate(2534.448000, 1428.430000) rotate(180.000000) translate(-2534.448000, -1428.430000) translate(2388.948000, 1285.930000)">
+                    <path d="M120.744,0.485 C58.1,8.353 30.215,40.688 13.161,75.1 C-1.108,103.9 -2.088,138.959 2.318,167.6 C6.567,195.221 19.574,233.887 49.1,258.032 C89.063,290.715 123.718,286.627 171.048,280.32 C228.685,272.641 258.695,238.368 275.735,203.742 C290.526,173.689 297.645,137.697 280.186,82.783 C271.492,55.44 244.2,39.111 216.326,28.6 C182.526,15.852 150.822,-3.294 120.744,0.485 Z" id="Path_187-4" fill="url(#radialGradient-1)" opacity="0.35"></path>
+                    <path d="M122.28,21.411 C65.462,28.711 39.98,57.211 24.299,87.452 C11.18,112.764 10.059,143.474 13.868,168.526 C17.537,192.685 29.068,226.459 55.668,247.409 C91.668,275.767 123.099,271.96 166.032,266.128 C218.313,259.028 245.732,228.818 261.401,198.385 C275.001,171.971 281.688,140.407 266.226,92.435 C258.526,68.547 233.905,54.427 208.711,45.403 C178.167,34.463 149.559,17.905 122.28,21.411 Z" id="Path_188-4" fill="url(#radialGradient-2)" opacity="0.41"></path>
+                    <path d="M150.782,32.109 C101.202,26 72.39,41.677 53.562,61.488 C35.465,80.532 29.561,106.953 28.282,128.599 C27.065,149.227 29.04,181.928 43.307,208.131 C60.193,239.144 83.289,251.953 116.934,254.26 C154.792,256.86 186.842,246.085 210.957,226.986 C233.613,209.043 251.334,181.476 254.218,129.162 C255.612,103.868 237.597,83.012 216.625,67.606 C193.536,50.643 170.015,34.478 150.782,32.109 Z" id="Path_189-4" fill="url(#radialGradient-3)" opacity="0.85"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,49 @@
+
+<svg width="1655px" height="1623px" viewBox="0 0 1655 1623" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <radialGradient cx="89.0783283%" cy="52.6671465%" fx="89.0783283%" fy="52.6671465%" r="110.12884%" gradientTransform="translate(0.890783,0.526671),scale(0.980665,1.000000),rotate(179.541333),translate(-0.890783,-0.526671)" id="radialGradient-1">
+            <stop stop-color="#FE36C0" offset="0%"></stop>
+            <stop stop-color="#F935C1" offset="10.8%"></stop>
+            <stop stop-color="#EB33C4" offset="23.2%"></stop>
+            <stop stop-color="#D430CA" offset="36.4%"></stop>
+            <stop stop-color="#B32CD2" offset="50.2%"></stop>
+            <stop stop-color="#8A26DC" offset="64.4%"></stop>
+            <stop stop-color="#5720E8" offset="79%"></stop>
+            <stop stop-color="#1C18F7" offset="93.6%"></stop>
+            <stop stop-color="#0015FE" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="76.6933537%" cy="49.004929%" fx="76.6933537%" fy="49.004929%" r="114.148724%" gradientTransform="translate(0.766934,0.490049),scale(0.946702,1.000000),rotate(179.140898),translate(-0.766934,-0.490049)" id="radialGradient-2">
+            <stop stop-color="#FE36C0" offset="0%"></stop>
+            <stop stop-color="#F935C1" offset="10.8%"></stop>
+            <stop stop-color="#EB33C4" offset="23.2%"></stop>
+            <stop stop-color="#D430CA" offset="36.4%"></stop>
+            <stop stop-color="#B32CD2" offset="50.2%"></stop>
+            <stop stop-color="#8A26DC" offset="64.4%"></stop>
+            <stop stop-color="#5720E8" offset="79%"></stop>
+            <stop stop-color="#1C18F7" offset="93.6%"></stop>
+            <stop stop-color="#0015FE" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="80.4248699%" cy="57.0226848%" fx="80.4248699%" fy="57.0226848%" r="109.003685%" gradientTransform="translate(0.804249,0.570227),scale(0.989922,1.000000),rotate(-169.037418),translate(-0.804249,-0.570227)" id="radialGradient-3">
+            <stop stop-color="#FE36C0" offset="0%"></stop>
+            <stop stop-color="#F935C1" offset="10.8%"></stop>
+            <stop stop-color="#EB33C4" offset="23.2%"></stop>
+            <stop stop-color="#D430CA" offset="36.4%"></stop>
+            <stop stop-color="#B32CD2" offset="50.2%"></stop>
+            <stop stop-color="#8A26DC" offset="64.4%"></stop>
+            <stop stop-color="#5720E8" offset="79%"></stop>
+            <stop stop-color="#1C18F7" offset="93.6%"></stop>
+            <stop stop-color="#0015FE" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="spectropharma-1920-–-homepage" transform="translate(-1239.000000, -1.000000)" fill-rule="nonzero">
+            <g id="grafx-2" transform="translate(0.371000, 0.473000)">
+                <g id="Group_87" transform="translate(1238.629000, 0.527000)">
+                    <path d="M688.050482,2.76561634 C331.095958,47.6284802 172.181337,231.987158 75.0047244,428.1708 C-6.30699626,592.363343 -11.9034391,792.280019 13.216895,955.580843 C37.4293987,1113.06611 111.550438,1333.51447 279.803535,1471.18254 C507.530601,1657.52404 705.005877,1634.21751 974.709033,1598.26075 C1303.14439,1554.47792 1474.1542,1359.06969 1571.25331,1161.65093 C1655.53762,990.302484 1696.10215,785.090883 1596.61167,471.997941 C1547.06848,316.091181 1391.57483,222.99243 1232.71557,163.04789 C1040.11158,90.3755893 859.447773,-18.7796356 688.050482,2.76561634 Z" id="Path_187-2" fill="url(#radialGradient-1)" opacity="0.35"></path>
+                    <path d="M696.225141,121.724378 C372.16158,163.334059 226.815286,325.764079 137.384624,498.138341 C62.5589581,642.407382 56.1872797,817.450423 77.8897703,960.241116 C98.8165783,1097.94341 164.605542,1290.44425 316.312434,1409.83607 C521.646695,1571.46878 700.912481,1549.77527 945.77885,1516.52628 C1243.96786,1476.04613 1400.35655,1303.86565 1489.72072,1130.40616 C1567.28898,979.852758 1605.4304,799.948334 1517.24083,526.520407 C1473.32612,390.362901 1332.89987,309.884296 1189.19913,258.446647 C1014.97528,196.117947 851.821527,101.747302 696.225141,121.724378 Z" id="Path_188-2" fill="url(#radialGradient-2)" opacity="0.41"></path>
+                    <path d="M858.961244,182.63314 C576.350888,147.784735 412.113623,237.213643 304.803748,350.21468 C201.652269,458.82157 168.003038,609.541336 160.721692,733.026263 C153.783649,850.692963 165.040665,1037.23638 246.364717,1186.68722 C342.616913,1363.589 474.262541,1436.65484 666.041566,1449.81512 C881.835191,1464.62666 1064.51669,1403.18619 1201.97632,1294.24129 C1331.11916,1191.89037 1432.12222,1034.64865 1448.56754,736.245681 C1456.51335,591.964752 1353.82699,473.001419 1234.28002,385.118496 C1102.66208,288.353081 968.585645,196.148048 858.961244,182.63314 Z" id="Path_189-2" fill="url(#radialGradient-3)" opacity="0.614411477"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
