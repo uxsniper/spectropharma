@@ -105,9 +105,9 @@
             </div> <!-- container -->
         </div> <!-- navbar area -->
         
-        <div id="home" class="header-hero bg_cover" style="background-image: url(assets/images/home_banner.png); height:100vh; overflow-x: clip;">
+        <div id="home" class="header-hero bg_cover" style="background-image: url(assets/images/home_banner.png); height:100vh; overflow-x: clip; width: 100%;">
             <div id="homeRadialBig"></div>
-            <div id="homeWaveBig" style="background: url('./assets/images/home_radial_wave.svg') left bottom no-repeat; background-position:0 left; background-size: contain; position:absolute; bottom:0%; left:0; width:100%;height:100vh"></div>
+            <div id="homeWaveBig" class="animate" style="background: url('./assets/images/home_radial_wave.svg') left bottom no-repeat; background-position:0 left; background-size: contain; position:absolute; bottom:0%; left:0; width:100%;height:100vh"></div>
             <div id="particles-1" class="particles" style="z-index: 100;"></div>
             <div class="container">
                 <div class="row justify-content-center">
@@ -546,7 +546,7 @@
         <!--====== blue SPACER ENDS ========-->
         <div id="strategyin"></div>
 
-        <div style="background:#fff ;min-height: 90vh; padding-top: 25px; background:white url('./assets/images/radial-big.svg') no-repeat; background-size:360px; background-position: calc(100% + 250px) calc(100% - 150px); ">
+        <div class="careerBlue3">
             <div class="container">
             
                 <div class="row">
@@ -669,9 +669,9 @@
         <!--====== MAGENTA SPACER ========-->
         <div style="height:22vh; width:100%; background-color: rgba(5,19,52,0.2);"></div>
         <!--====== blue SPACER ENDS ========-->
-        <div style="background: url('./assets/images/radial_magenta.svg') -100px 300px no-repeat; background-size: 200px; position:absolute; top:0; left:0; z-index: 98; width:300px;height:500px"></div>
+        <div class="careerblue"></div>
 
-        <div style="background:#fff ;min-height: 90vh; padding-top: 25px; background:white url('./assets/images/radial-big.svg') no-repeat; background-size:360px; background-position: calc(100% + 250px) calc(100% - 150px); ">
+        <div class="careerBlue2">
             <div class="container">
             
                 <div class="row">
@@ -707,7 +707,7 @@
                                 We value every new opportunities to enrich our resources, capabilities and diversify our pharmaceutical products portfolio that will deliver maximum value to the patients and healthcare professionals. If you have a partnering opportunity, you would like to discuss with Business Development Team, please contact us.
                             </p>
                             <div class="flip">
-                                <a href="">
+                                <a id="buttonPartner">
                                     <div class="front">Be Our Partner</div>
                                     <div class="back">Let's Work Together</div>
                               </a>
@@ -718,13 +718,13 @@
                 </div> <!-- row -->
                 
             </div>
-            <div id="partnershipForm" style="height:100vh; position:absolute; top:0vh; background:rgba(0,0,0,0.7); width:100%; z-index: 100; display: none;">
+            <div id="partnershipForm">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12" style="margin-top:10vh; background:gainsboro;padding:25px">
-                            <i class="fa fa-times" style="float: right; font-size: 16pt;"></i>
+                        <div class="col-lg-12" style="background:gainsboro;padding:25px">
+                            <a id="closePartnershipForm" style="float:right; cursor: pointer;"><i class="fa fa-times" style="font-size: 20pt;"></i></a>
                             <br>
-                            <form style="margin-top: 50px;">
+                            <form style="margin-top: 50px; clear:both">
                                 <div class="form-group row">
                                   <i class="col-sm-1"></i>  
                                   <label for="firstName" class="col-sm-2 col-form-label">Name</label>
@@ -866,9 +866,9 @@
         <!--====== MAGENTA SPACER ========-->
         <div style="height:15vh; width:100%; background-color: rgba(5,19,52,0.2);"></div>
         <!--====== blue SPACER ENDS ========-->
-        <div id="careerblue"></div>
+        <div class="careerblue"></div>
 
-        <div style="background:#fff ;min-height: 90vh; padding-top: 25px; background:white url('./assets/images/radial-big.svg') no-repeat; background-size:360px; background-position: calc(100% + 250px) calc(100% - 250px); ">
+        <div class="careerBlue3">
             <div class="container">
             
                 <div class="row">
@@ -908,7 +908,7 @@
                                 If you’re driven to bring in the best medications and to market it, ensure it has the latest technology to make it a reality, or simply help people to live healthier the lives of others, join us at Spectropharma.
                             </p>
                             <div class="flip">
-                                <a href="">
+                                <a id="buttonCareerForm">
                                     <div class="front">Apply Now and Join Our Team</div>
                                     <div class="back">Let's Work Together</div>
                               </a>
@@ -921,6 +921,80 @@
             </div>
         </div>
         
+        <div id="careerForm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12" style="background:gainsboro;padding:25px">
+                        <a id="closeCareerForm" style="float:right; cursor: pointer;"><i class="fa fa-times" style="font-size: 20pt;"></i></a>
+                        <br><br>
+                        <form style="margin-top: 50px; clear:both">
+                            <div class="form-group row">
+                              <i class="col-sm-1"></i>  
+                              <label for="firstName" class="col-sm-2 col-form-label">Name</label>
+                              <div class="col-sm-4">
+                                <input type="text" class="form-control" id="firstName" placeholder="First name">
+                              </div>
+                              <div class="col-sm-4">
+                                <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                              </div>
+                              <i class="col-sm-1"></i>  
+                            </div>
+                            <div class="form-group row">
+                                <i class="col-sm-1"></i>  
+                                <label for="firstName" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-8">
+                                  <input type="email" class="form-control" id="firstName" placeholder="ex. myemail@example.com">
+                                </div>
+                                <i class="col-sm-1"></i>  
+                            </div>
+                            <div class="form-group row">
+                                <i class="col-sm-1"></i>  
+                                <label for="firstName" class="col-sm-2 col-form-label">Phone #</label>
+                                <div class="col-sm-2">
+                                  <input type="number" class="form-control" id="firstName" placeholder="Area code">
+                                </div>
+                                <div class="col-sm-6">
+                                  <input type="number" class="form-control" id="lastName" placeholder="Phone number">
+                                </div>
+                                <i class="col-sm-1"></i>  
+                            </div>
+                            <div class="form-group row">
+                                <i class="col-sm-1"></i>  
+                                <label for="firstName" class="col-sm-2 col-form-label">Address</label>
+                                <div class="col-sm-8">
+                                  <input type="text" class="form-control" id="address" placeholder="">
+                                </div>
+                                <i class="col-sm-1"></i>  
+                            </div>
+                            <div class="form-group row">
+                                <i class="col-sm-1"></i>  
+                                <label for="firstName" class="col-sm-2 col-form-label">Applying for Position</label>
+                                <div class="col-sm-8">
+                                  <input type="text" class="form-control" id="positionApplied" placeholder="">
+                                </div>
+                                <i class="col-sm-1"></i>  
+                            </div>
+                            <div class="form-group row">
+                                <i class="col-sm-1"></i>  
+                                <label for="firstName" class="col-sm-2 col-form-label">Upload CV</label>
+                                <div class="col-sm-8">
+                                  <input type="file" class="form-control" id="firstName" placeholder="">
+                                </div>
+                                <i class="col-sm-1"></i>  
+                            </div>
+                            
+                            <div class="form-group row">
+                                <i class="col-sm-9"></i>  
+                                <div class="buttonPlain" class="col-sm-2">
+                                    Submit
+                                </div>
+                                
+                            </div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <footer class="footer-area" style="border-top: 1px solid gainsboro;">
             <div class="container">
@@ -978,7 +1052,134 @@
 
     
     <!--====== FOOTER PART START ======-->
-    
+    <div id="contactForm" style="overflow-y:scroll;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" style="background:gainsboro;padding:25px; ">
+                    <a id="closeContactForm" style="float:right; cursor: pointer;"><i class="fa fa-times" style="font-size: 20pt;"></i></a>
+                    <br><br>
+                    <form style="margin-top: 50px; clear:both">
+                        <div class="form-group row">
+                            <i class="col-sm-1"></i>  
+                            <label for="firstName" class="col-sm-2 col-form-label"></label>
+                            <div class="col-sm-8">
+                                <label for="firstName" class="col-sm-8 col-form-label" style="color:Gray">Please fill the form before you submit</label>
+                            </div>
+                            
+                            <i class="col-sm-1"></i>  
+                          </div>
+                          <div class="form-group row">
+                            <i class="col-sm-1"></i>  
+                            <label for="firstName" class="col-sm-2 col-form-label">Select Department</label>
+                            <div class="col-sm-8">
+                              <input type="text" class="form-control" id="address" placeholder="">
+                            </div>
+                            <i class="col-sm-1"></i>  
+                        </div>
+                        <div class="form-group row">
+                          <i class="col-sm-1"></i>  
+                          <label for="firstName" class="col-sm-2 col-form-label">Name</label>
+                          <div class="col-sm-4">
+                            <input type="text" class="form-control" id="firstName" placeholder="First name">
+                          </div>
+                          <div class="col-sm-4">
+                            <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                          </div>
+                          <i class="col-sm-1"></i>  
+                        </div>
+                        <div class="form-group row">
+                            <i class="col-sm-1"></i>  
+                            <label for="firstName" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-8">
+                              <input type="email" class="form-control" id="firstName" placeholder="ex. myemail@example.com">
+                            </div>
+                            <i class="col-sm-1"></i>  
+                        </div>
+                        <div class="form-group row">
+                            <i class="col-sm-1"></i>  
+                            <label for="firstName" class="col-sm-2 col-form-label">Phone #</label>
+                            <div class="col-sm-2">
+                              <input type="number" class="form-control" id="firstName" placeholder="Area code">
+                            </div>
+                            <div class="col-sm-6">
+                              <input type="number" class="form-control" id="lastName" placeholder="Phone number">
+                            </div>
+                            <i class="col-sm-1"></i>  
+                        </div>
+                        
+                        <div class="form-group row">
+                            <i class="col-sm-1"></i>  
+                            <label for="firstName" class="col-sm-2 col-form-label">Subject</label>
+                            <div class="col-sm-8">
+                              <input type="text" class="form-control" id="positionApplied" placeholder="">
+                            </div>
+                            <i class="col-sm-1"></i>  
+                        </div>
+                        <div class="form-group row">
+                            <i class="col-sm-1"></i>  
+                            <label for="firstName" class="col-sm-2 col-form-label">Message</label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" id="message" rows="3"></textarea>
+                            </div>
+                            <i class="col-sm-1"></i>  
+                        </div>
+                        <div class="form-group row">
+                            <i class="col-sm-1"></i>  
+                            <label for="firstName" class="col-sm-2 col-form-label">Contact Info <i class="fa fa-chevron-down" style="margin-left: 30px;" aria-hidden="true"></i>
+                            </label>
+                            <div class="col-sm-8">
+                                
+                            </div>
+                            <i class="col-sm-1"></i>  
+                        </div>
+                        <div class="form-group row">
+                            <i class="col-sm-1"></i>  
+                            <label for="firstName" class="col-sm-2 col-form-label">
+                            </label>
+                            <div class="col-sm-8">
+                                <div class="offceLocation">
+                                    <b>Office Location</b>
+                                    <p style="color:white; line-height:18pt; margin-top:10px">6826 Thakhassusi St., Mohammadia Office 105<br>Riyadh 12362 - 3746 Kingdom of Saudi Arabia</p>
+                                </div>
+                            </div>
+                            <i class="col-sm-1"></i>  
+                        </div>
+                        <div class="form-group row">
+                            <i class="col-sm-1"></i>  
+                            <label for="firstName" class="col-sm-2 col-form-label">
+                            </label>
+                            <div class="col-sm-8">
+                                <div class="contactIcon">
+                                    <b>Contact Number</b>
+                                    <p style="color:white; line-height:18pt; margin-top:10px">+ 966 11 281 5306</p>
+                                </div>
+                            </div>
+                            <i class="col-sm-1"></i>  
+                        </div>
+                        <div class="form-group row">
+                            <i class="col-sm-1"></i>  
+                            <label for="firstName" class="col-sm-2 col-form-label">
+                            </label>
+                            <div class="col-sm-8">
+                                <div class="emailIcon">
+                                    <b>E-mail Address</b>
+                                    <p style="color:white; line-height:18pt; margin-top:10px">info@spectropharma.com</p>
+                                </div>
+                            </div>
+                            <i class="col-sm-1"></i>  
+                        </div>
+                        <div class="form-group row">
+                            <i class="col-sm-9"></i>  
+                            <div class="buttonPlain" class="col-sm-2">
+                                Submit
+                            </div>
+                            
+                        </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="footer-area" style="border-top: 1px solid gainsboro;">
         <div class="container">
             

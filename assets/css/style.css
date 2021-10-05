@@ -90,7 +90,7 @@ p {
   color: #898989;
   margin: 0px; }
 p.home{
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 300;
     line-height: 36px;
     color: #6A6972;
@@ -1604,8 +1604,16 @@ p.home{
   opacity: 1;
   
 }
-#homeWaveBig {
-  
+.offceLocation {
+  background:#808285 url('../images/officeLocation.svg') 30px 30px no-repeat; color:white; padding:35px 80px;
+}
+.contactIcon {
+  background:#808285 url('../images/contactus.svg') 30px 30px no-repeat; color:white; padding:35px 80px;
+}
+.emailIcon {
+  background:#808285 url('../images/email.svg') 30px 30px no-repeat; color:white; padding:35px 80px;
+}
+.animate {
   -webkit-animation-name: rotate;
   -webkit-animation-duration:120s;
   -webkit-animation-iteration-count:infinite;
@@ -1616,7 +1624,6 @@ p.home{
   -moz-animation-timing-function:linear;
   transform : scale(1);
 }
-
 @-webkit-keyframes rotate {
   from {-webkit-transform:rotate(0deg) scale(1.03)}
   to {  -webkit-transform:rotate(360deg) scale(2);}
@@ -1656,10 +1663,34 @@ p.home{
   background: url('../images/radial_magenta.svg') -100px 300px no-repeat; 
   background-size: 200px; position:absolute; top:0; left:0; z-index: 98; width:300px;height:500px
 }
-#careerblue{
+.careerblue{
   background: url('../images/radial_magenta.svg') -100px 300px no-repeat; 
   background-size: 200px; position:absolute; top:0; 
   left:0; z-index: 98; width:300px;height:500px;
+}
+.careerBlue2 {
+  background:#fff ;min-height: 90vh; padding-top: 25px; 
+  background:white url('../images/radial-big.svg') no-repeat; 
+  background-size:360px; background-position: calc(100% + 250px) calc(100% - 150px)
+}
+.careerBlue3 {
+  background:#fff ;min-height: 90vh; padding-top: 25px; 
+  background:white url('../images/radial-big.svg') no-repeat; 
+  background-size:360px; background-position: calc(100% + 250px) calc(100% - 150px);
+  padding-top:10vh;
+}
+
+.careerBlue3 i {
+  margin-top:100px
+}
+#partnershipForm {
+  height:100vh; position:fixed; top:0vh; background:rgba(0,0,0,0.7);  padding-top:10vh; width:100%; z-index: 100; display: none; 
+}
+#careerForm{
+  height:100vh; position:fixed; top:0vh; background:rgba(0,0,0,0.7);  padding-top:10vh; width:100%; z-index: 100; display: none; 
+}
+#contactForm{
+  height:100vh; position:fixed; top:0vh; background:rgba(0,0,0,0.7);  padding-top:10vh; width:100%; z-index: 100; display: none; 
 }
 @media only screen and (min-width: 400px) and (max-width: 767px) {
   #homeRadialBig {
@@ -1711,8 +1742,35 @@ p.home{
   #strategyin {
     background-position: -100px 0px; 
   }
-  #careerblue{
-    background-position: -100px -20px;
+  .careerblue{
+    opacity: 0.5;
+  }
+  .careerBlue2 {
+    background-size:360px; background-position: calc(100% + 250px) calc(100% - 100px)
+  }
+  .careerBlue3 {
+    background-size:360px; background-position: calc(100% + 250px) calc(100% - 50px)
+  }
+  .magentaRadial {
+    background-size:360px; background-position: calc(100% + 250px) calc(100% - 250px); 
+  }
+  #partnershipForm {
+    padding-top:0;
+  }
+  #partnershipForm a{
+    margin-top:50px;
+  }
+  #careerForm {
+    padding-top:0;
+  }
+  #careerForm a{
+    margin-top:50px;
+  }
+  #contactForm {
+    padding-top:0;
+  }
+  #contactForm a{
+    margin-top:50px;
   }
 }
 .tagLine {
@@ -1752,6 +1810,7 @@ p.home{
     background-position: -150px 50px; 
     background-size: 300px;
   }
+  
 }
 @media only screen and (min-width: 927px) and (max-width: 1080px) {
   #homeRadialBig {
@@ -1767,7 +1826,7 @@ p.home{
     padding-top:130px;
   }
   p.home {
-    font-size:16pt;
+    font-size:20pt;
     margin-left: -50px;
   }
   #projectOverview{

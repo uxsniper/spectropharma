@@ -64,6 +64,7 @@ $(function () {
     }
     function removeClass() {
         $("body")[0].style.overflow = "hidden";
+        $("#homeWaveBig").removeClass("animate");
         $("#navAboutUs").parent().removeClass("active");
         $("#navFocusArea").parent().removeClass("active");
         $("#navStrategy").parent().removeClass("active");
@@ -74,10 +75,46 @@ $(function () {
         $(".navbar-area").addClass("sticky");
         $(".navbar .navbar-brand img").attr("src", "assets/images/logo-2.svg");
     }
+    $("#buttonPartner").on('click', function () {
+        
+        $("#partnership").scrollTop(0);
+        $("#partnership")[0].style.overflow = "hidden";
+        $("#partnershipForm").fadeIn("slow"); 
+        
+    });
+
+    $("#closePartnershipForm").on('click', function () {
+        $("#partnershipForm").fadeOut("slow"); 
+        $("#partnership")[0].style.overflow = "auto";
+    });
+
+    $("#buttonCareerForm").on('click', function () {
+        
+        $("#careers").scrollTop(0);
+        $("#careers")[0].style.overflow = "hidden";
+        $("#careerForm").fadeIn("slow"); 
+        
+    });
+    $("#closeCareerForm").on('click', function () {
+        $("#careerForm").fadeOut("slow"); 
+        $("#careers")[0].style.overflow = "auto";
+    });
+
+    $("#navContact").on('click', function () {
+        window.scrollTo(0, 0); 
+        $("body")[0].style.overflow = "hidden";
+        $("#contactForm").fadeIn("slow"); 
+        
+    });
+    $("#closeContactForm").on('click', function () {
+        $("#contactForm").fadeOut("slow"); 
+        $("body")[0].style.overflow  = "auto";
+    });
     //===== Nav Actions === 
     $("#homepage").on('click', function () {
         removeClass();
         $("body")[0].style.overflow = "auto";
+        $("#homeWaveBig").addClass("animate");
         removeModals(0);
         window.scrollTo(0, 0); 
     });
