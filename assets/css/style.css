@@ -1772,11 +1772,13 @@ p.home{
   #contactForm a{
     margin-top:50px;
   }
+  .tagLine {
+    margin-left:100px;
+  }
 }
-.tagLine {
-  margin-left:100px;
-}
+
 @media only screen and (min-width: 768px) and (max-width: 926px) {
+  
   #homeRadialBig {
     width:150%;
     background-position:400px -200px;
@@ -1787,11 +1789,11 @@ p.home{
     padding-top:50px;
   }
   p.home {
-    font-size:13pt;
+    font-size:20pt;
     margin-left: -50px;
   }
   .header-hero-content {
-    padding-top:100;
+    padding-top:100px;
   }
   #projectOverview{
     background-position: -15% -10px;
@@ -1821,7 +1823,7 @@ p.home{
     padding-top:150px;
   }
   .tagLine {
-    margin-left:50px;
+    margin-left:200px;
     font-size:14pt;
     padding-top:130px;
   }
@@ -1836,6 +1838,36 @@ p.home{
   #mission{
     background-position: -150px -100px; 
     background-size: 300px;
+  }
+  #aboutin {
+    background:#fff url('../images/radial_nav_magenta.svg') no-repeat; 
+    background-size:250px; background-position: -190px 50px;
+  }
+}
+@media only screen and (min-width: 1081px) and (max-width: 1979px) {
+  #aboutin {
+    background:#fff url('../images/radial_nav_magenta.svg') no-repeat; 
+    background-size:450px; background-position: -380px 50px;
+  }
+  .tagLine {
+    margin-left:150px;
+    font-size:14pt;
+    padding-top:130px;
+  }
+  #homeRadialBig {
+    width:100%;
+    background-position:300px -300px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1979px) {
+  .tagLine {
+    margin-left:205px;
+    font-size:14pt;
+    padding-top:130px;
+  }
+  #aboutin {
+    background:#fff url('../images/radial_nav_magenta.svg') no-repeat; 
+    background-size:350px; background-position: -280px 50px; 
   }
 }
 @media only screen and (min-width: 1980px) and (max-width: 3092px) {

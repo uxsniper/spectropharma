@@ -1,3 +1,5 @@
+
+
 $(function () {
 
     "use strict";
@@ -51,6 +53,28 @@ $(function () {
     });
     var currentLocation = null;
 
+    function contactForm() {
+        $.getScript('https://smtpjs.com/v3/smtp.js',function(){
+            Email.send({
+                Host: "smtp.spectropharma.com",
+                Username: "info@spectropharma.com",
+                Password: "Ayg4hrkCte4wZqC",
+                To: 'info@spectropharma.com',
+                From: "uxsniper@gmail.com",
+                Subject: "Temporary Message",
+                Body: "Well that was easy!!",
+              })
+                .then(function (message) {
+                  alert("Email sent successfully");
+                  $("#contactForm").fadeOut("slow"); 
+                  $("body")[0].style.overflow  = "auto";
+                });
+         });
+        
+    }
+    $("#submitContact").on('click', function () {
+        contactForm();
+    });
     function removeModals(x) {
         if (x != currentLocation){
             switch (currentLocation) {
@@ -508,3 +532,5 @@ $(function () {
 
 
 });
+
+
